@@ -1,0 +1,1 @@
+docker build -t airlab/l4t-torch-tensorrt:r35.1.0-pth1.12-ttrt1.2.0 -f docker/Dockerfile.l4t --build-arg BASE=r35.1.0-pth1.12 .
